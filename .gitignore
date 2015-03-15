@@ -4,5 +4,4 @@
 /bower_components/
 /node_modules/
 /vendor/
-/app/cache/views/*
 /composer.lock
