@@ -1,0 +1,19 @@
+{# (comment)
+This is an example view, usage of Twig template engine
+#}
+<h1>Home page</h1>
+<p>This is an example usage of route and view.</p>
+
+<a href="{{ baseUrl() }}/non-existing-page">Non existing page(404 preview)</a>
+
+<hr>
+
+<h2>Guests</h2>
+<table border="1">
+{% for guest in guests %}
+    <tr>
+        <td>{{ guest.created_at }}</td>
+        <td>{{ guest.ip }}</td>
+    </tr>
+{% endfor %}
+</table>
