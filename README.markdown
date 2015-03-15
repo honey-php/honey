@@ -26,7 +26,7 @@ Honey shows the advantages of both in a mini environment.
 
 2. Create a **Honey** project:
 
-        php composer.phar create-project honey/honey {DIRECTORY}
+        php composer.phar create-project honey/honey:dev-master {DIRECTORY}
 
 3. **Profit**!
 
